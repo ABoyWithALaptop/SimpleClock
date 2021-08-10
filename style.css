@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@500&family=Red+Hat+Display&family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("./pattern (1).png");
+    background-repeat: no-repeat;
+}
+.main {
+    background-color: #ccc;
+    margin: 100px auto;
+    width: 400px;
+    height: 175px;
+    position: relative;
+    padding: 30px;
+}
+
+.tag {
+    background-color: #e66357;
+    padding: 5px 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: bold;
+    width: 96px;
+    position: absolute;
+    top: -20px;
+    left: 40%;
+    /* transform: translate(-40%); */
+}
+.clock {
+    
+    background-color: #ebebeb;
+    text-align: center;
+    font-size:55px;
+    height: 100%;
+    padding: 25px;
+    font-family: Recursive;
+    border-radius: 3px;
+}
