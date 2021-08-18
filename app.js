@@ -17,4 +17,4 @@ function Clock() {
     document.getElementById('sec').innerHTML=":" +Seconds;
     
 };
-setInterval(Clock, 100);
+setInterval(Clock, 1000);
